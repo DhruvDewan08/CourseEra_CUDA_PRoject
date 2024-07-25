@@ -2,14 +2,7 @@
 ## GPGPU-based SVD solver for large dense matrices
 
 ## Abstract
-Singular value decomposition is a fundamental factorization in linear algebra used in
-wide-ranging scientific and computer science applications. This report presents a
-comparison of three optimized computational models to solve SVD of large dense matrices,
-with the following corresponding implementations: (1) Cache-optimized single-core;
-(2) Parallelized multi-core, using a 6-core 2.6 GHz Intel Xeon Processor; (3) GPGPU-accelerated,
-using an NVIDIA Tesla V100 GPU. The proposed implementations show progressive and substantial
-performance improvements over a naive baseline single-core implementation. Multi-core
-and GPU implementations also show marked speedup over the optimized single-core implementation.
+Singular value decomposition (SVD) is a crucial factorization in linear algebra with applications across various scientific and computational fields. This report presents a comparative analysis of three optimized computational models for solving the SVD of large dense matrices. The implementations include: (1) Cache-optimized single-core; (2) Parallelized multi-core, utilizing a 6-core 2.6 GHz Intel Xeon Processor; (3) GPGPU-accelerated, leveraging an NVIDIA Tesla V100 GPU. These implementations demonstrate progressive and significant performance enhancements over a naive baseline single-core approach. The multi-core and GPU implementations notably outperform the optimized single-core solution.
 
 ## Reproducibility
 
